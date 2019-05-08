@@ -1,0 +1,300 @@
+*
+{
+  padding:0;
+  margin:0;
+}
+body, html
+{
+  width:100%;
+}
+.wrapper
+{
+  width:1100px;
+}
+.hero
+{
+  width:100vw;
+  height: 650px;
+  background-image: url("../img/background.png");
+  background-size: 100%;
+}
+.logo
+{
+  margin-left: 78px;
+  margin-top: 12px;
+}
+.navigation
+{
+  margin-left: 69px;
+  margin-top: 29px;
+  &__menu
+  {
+    display:flex;
+    flex-direction:row;
+  }
+  &__item
+  {
+    margin-left:30px;
+    color:white;
+    a
+    {
+      color:white;
+      font-family: Ubuntu-Regular;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 30px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}
+.header
+{
+  display:flex;
+  flex-direction: row;
+}
+.order
+{
+  height:9px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Ubuntu-Regular;
+  text-transform: uppercase;
+  margin-top: 28px;
+  margin-left:13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e45028;
+  a
+  {
+    text-decoration: none;
+    color:white;
+  }
+  padding: 13px 15px;
+  border-radius: 5px;
+}
+@font-face {
+
+  font-family: "Ubuntu-Regular";
+  src: url("../fonts/Ubuntu-Regular.ttf");
+
+}
+@font-face {
+
+  font-family: "Lifehack Medium";
+  src: url("../fonts/Lifehack Medium.otf");
+
+}
+@font-face {
+
+  font-family: "Gagalin-Regular";
+  src: url("../fonts/Gagalin-Regular.otf");
+
+}
+.burger
+{
+  margin-left:97px;
+}
+.caption
+{
+    width:406px;
+    margin-top:152px;
+  margin-left:11px;
+  &__wemake
+  {
+    color: #f9b43b;
+    font-family: Gagalin-Regular;
+    font-size: 72px;
+    font-weight: 400;
+  }
+  &__burgers
+  {
+    font-family: Lifehack Medium;
+    font-size: 65px;
+    line-height: 65px;
+    color:white;
+  }
+}
+.main
+{
+  display:flex;
+  flex-direction: row;
+}
+.active
+{
+  margin-bottom: 10px;
+  margin-left:7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &::after
+  {
+    content:"";
+    width:16px;
+    height:16px;
+    margin-right:40px;
+    position:absolute;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+  }
+}
+.non-active
+{
+  margin-bottom: 10px;
+  margin-left:7px;
+}
+.points
+{
+  margin-top:9px;
+  margin-left:150px;
+  &__item
+  {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+  }
+}
+.down
+{
+  margin-top:95px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.best
+{
+  background-size: 100%;
+  width:100vw;
+  height: 650px;
+  background-image: url("../img/we_are_the_best.png");
+  &__title
+  {
+    font-family: Gagalin-Regular;
+    font-size: 72px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top:120px;
+    display: flex;
+    justify-content: center;
+  }
+  &__item
+  {
+    width:281px;
+  }
+  &__items
+  {
+    padding-top:30px;
+    padding-left:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &__caption
+  {
+    font-family: Lifehack Medium;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+  &__icon
+  {
+    display: flex;
+    justify-content: center;
+  }
+  &__description
+  {
+    text-align: center;
+    opacity: 0.8;
+    color: #2f3234;
+    font-family: Ubuntu-Regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.02px;
+  }
+}
+.reviews
+{
+
+  &__list
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  &__avatar
+  {
+    width:25vw;
+    height:325px;
+    filter: grayscale(100%);
+  }
+  &__hover
+  {
+    padding-left: 19px;
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+  &__item
+  {
+    list-style-type: none;
+      position: relative;
+      &:hover
+      {
+        .reviews__hover
+        {
+          display: block;
+        }
+      }
+  }
+  &__text
+  {
+    color: #ffffff;
+    font-family: Ubuntu-Regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  &__title
+  {
+    color: #ffffff;
+    font-family: Gagalin-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.11px;
+  }
+}
+
+.btn
+{
+  margin-top:13px;
+  font-family: Ubuntu-Regular;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #1f2122;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.photos
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.special
+{
+  background-color: rgba(20, 20, 20, 0.7);
+  background-color: #b5babd;
+}

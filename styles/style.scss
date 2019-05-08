@@ -1,0 +1,30 @@
+.wrapper
+{
+  width:1104px;
+  margin:0 auto;
+}
+.logo
+{
+  margin-left: 78px;
+  margin-top: 12px;
+}
+.navigation
+{
+  margin-left: 69px;
+  margin-top: 29px;
+  &__item
+  {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    a
+    {
+      color:white;
+    }
+  }
+}
+.header
+{
+  display:flex;
+  flex-direction: row;
+}

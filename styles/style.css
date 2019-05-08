@@ -1,0 +1,26 @@
+.wrapper {
+  width: 1104px;
+  margin: 0 auto; }
+
+.logo {
+  margin-left: 78px;
+  margin-top: 12px; }
+
+.navigation {
+  margin-left: 69px;
+  margin-top: 29px; }
+  .navigation__item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white; }
+    .navigation__item a {
+      color: white; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }

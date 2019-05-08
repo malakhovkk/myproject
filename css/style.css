@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body, html {
+  width: 100%; }
+
+.wrapper {
+  width: 1100px; }
+
+.hero {
+  width: 100vw;
+  height: 650px;
+  background-image: url("../img/background.png");
+  background-size: 100%; }
+
+.logo {
+  margin-left: 78px;
+  margin-top: 12px; }
+
+.navigation {
+  margin-left: 69px;
+  margin-top: 29px; }
+  .navigation__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .navigation__item {
+    margin-left: 30px;
+    color: white; }
+    .navigation__item a {
+      color: white;
+      font-family: Ubuntu-Regular;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 30px;
+      text-transform: uppercase;
+      text-decoration: none; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.order {
+  height: 9px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Ubuntu-Regular;
+  text-transform: uppercase;
+  margin-top: 28px;
+  margin-left: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e45028;
+  padding: 13px 15px;
+  border-radius: 5px; }
+  .order a {
+    text-decoration: none;
+    color: white; }
+
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("../fonts/Ubuntu-Regular.ttf"); }
+
+@font-face {
+  font-family: "Lifehack Medium";
+  src: url("../fonts/Lifehack Medium.otf"); }
+
+@font-face {
+  font-family: "Gagalin-Regular";
+  src: url("../fonts/Gagalin-Regular.otf"); }
+
+.burger {
+  margin-left: 97px; }
+
+.caption {
+  width: 406px;
+  margin-top: 152px;
+  margin-left: 11px; }
+  .caption__wemake {
+    color: #f9b43b;
+    font-family: Gagalin-Regular;
+    font-size: 72px;
+    font-weight: 400; }
+  .caption__burgers {
+    font-family: Lifehack Medium;
+    font-size: 65px;
+    line-height: 65px;
+    color: white; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.active {
+  margin-bottom: 10px;
+  margin-left: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .active::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    margin-right: 40px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    border-radius: 50%; }
+
+.non-active {
+  margin-bottom: 10px;
+  margin-left: 7px; }
+
+.points {
+  margin-top: 9px;
+  margin-left: 150px; }
+  .points__item {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white; }
+
+.down {
+  margin-top: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.best {
+  background-size: 100%;
+  width: 100vw;
+  height: 650px;
+  background-image: url("../img/we_are_the_best.png"); }
+  .best__title {
+    font-family: Gagalin-Regular;
+    font-size: 72px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .best__item {
+    width: 281px; }
+  .best__items {
+    padding-top: 30px;
+    padding-left: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .best__caption {
+    font-family: Lifehack Medium;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center; }
+  .best__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .best__description {
+    text-align: center;
+    opacity: 0.8;
+    color: #2f3234;
+    font-family: Ubuntu-Regular;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.02px; }
+
+.reviews__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.reviews__avatar {
+  width: 25vw;
+  height: 325px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.reviews__hover {
+  padding-left: 19px;
+  padding-top: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none; }
+
+.reviews__item {
+  list-style-type: none;
+  position: relative; }
+  .reviews__item:hover .reviews__hover {
+    display: block; }
+
+.reviews__text {
+  color: #ffffff;
+  font-family: Ubuntu-Regular;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px; }
+
+.reviews__title {
+  color: #ffffff;
+  font-family: Gagalin-Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28.11px; }
+
+.btn {
+  margin-top: 13px;
+  font-family: Ubuntu-Regular;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #1f2122;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none; }
+
+.photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.special {
+  background-color: rgba(20, 20, 20, 0.7);
+  background-color: #b5babd; }
